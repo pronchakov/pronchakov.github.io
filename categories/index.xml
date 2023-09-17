@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on laboratory journal</title>
-    <link>https://pronchakov.github.com/categories/</link>
-    <description>Recent content in Categories on laboratory journal</description>
+    <title>Categories on ClearProp</title>
+    <link>https://clearprop.ru/categories/</link>
+    <description>Recent content in Categories on ClearProp</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://pronchakov.github.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://clearprop.ru/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
