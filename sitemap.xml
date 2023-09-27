@@ -2,10 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://clearprop.ru/categories/</loc>
+    <loc>https://clearprop.ru/3d/</loc>
+    <lastmod>2023-09-22T22:54:19+03:00</lastmod>
   </url><url>
     <loc>https://clearprop.ru/</loc>
+    <lastmod>2023-09-22T22:54:12+03:00</lastmod>
+  </url><url>
+    <loc>https://clearprop.ru/categories/3d/</loc>
+    <lastmod>2023-09-20T02:12:50+03:00</lastmod>
+  </url><url>
+    <loc>https://clearprop.ru/categories/</loc>
+    <lastmod>2023-09-20T02:12:50+03:00</lastmod>
+  </url><url>
+    <loc>https://clearprop.ru/tags/lcd/</loc>
+    <lastmod>2023-09-20T02:12:50+03:00</lastmod>
+  </url><url>
+    <loc>https://clearprop.ru/tags/marlin/</loc>
+    <lastmod>2023-09-20T02:12:50+03:00</lastmod>
+  </url><url>
+    <loc>https://clearprop.ru/tags/ramps/</loc>
+    <lastmod>2023-09-20T02:12:50+03:00</lastmod>
+  </url><url>
+    <loc>https://clearprop.ru/3d/ramps-1.5-marlin-lcd-2004-sd-card-work-problem/</loc>
+    <lastmod>2023-09-20T02:12:50+03:00</lastmod>
+  </url><url>
+    <loc>https://clearprop.ru/tags/sd/</loc>
+    <lastmod>2023-09-20T02:12:50+03:00</lastmod>
   </url><url>
     <loc>https://clearprop.ru/tags/</loc>
+    <lastmod>2023-09-20T02:12:50+03:00</lastmod>
   </url>
 </urlset>

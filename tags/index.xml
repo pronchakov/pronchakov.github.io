@@ -5,6 +5,43 @@
     <link>https://clearprop.ru/tags/</link>
     <description>Recent content in Tags on ClearProp</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://clearprop.ru/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Sep 2023 02:12:50 +0300</lastBuildDate><atom:link href="https://clearprop.ru/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>lcd</title>
+      <link>https://clearprop.ru/tags/lcd/</link>
+      <pubDate>Wed, 20 Sep 2023 02:12:50 +0300</pubDate>
+      
+      <guid>https://clearprop.ru/tags/lcd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>marlin</title>
+      <link>https://clearprop.ru/tags/marlin/</link>
+      <pubDate>Wed, 20 Sep 2023 02:12:50 +0300</pubDate>
+      
+      <guid>https://clearprop.ru/tags/marlin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ramps</title>
+      <link>https://clearprop.ru/tags/ramps/</link>
+      <pubDate>Wed, 20 Sep 2023 02:12:50 +0300</pubDate>
+      
+      <guid>https://clearprop.ru/tags/ramps/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sd</title>
+      <link>https://clearprop.ru/tags/sd/</link>
+      <pubDate>Wed, 20 Sep 2023 02:12:50 +0300</pubDate>
+      
+      <guid>https://clearprop.ru/tags/sd/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

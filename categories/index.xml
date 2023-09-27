@@ -5,6 +5,16 @@
     <link>https://clearprop.ru/categories/</link>
     <description>Recent content in Categories on ClearProp</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://clearprop.ru/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Sep 2023 02:12:50 +0300</lastBuildDate><atom:link href="https://clearprop.ru/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3d</title>
+      <link>https://clearprop.ru/categories/3d/</link>
+      <pubDate>Wed, 20 Sep 2023 02:12:50 +0300</pubDate>
+      
+      <guid>https://clearprop.ru/categories/3d/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ClearProp</title>
-    <link>https://clearprop.ru/</link>
-    <description>Recent content on ClearProp</description>
+    <title>3d on ClearProp</title>
+    <link>https://clearprop.ru/3d/</link>
+    <description>Recent content in 3d on ClearProp</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 22 Sep 2023 22:54:12 +0300</lastBuildDate><atom:link href="https://clearprop.ru/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Sep 2023 22:54:19 +0300</lastBuildDate><atom:link href="https://clearprop.ru/3d/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RAMPS 1.5 Marlin LCD-2004 SD card work problem</title>
       <link>https://clearprop.ru/3d/ramps-1.5-marlin-lcd-2004-sd-card-work-problem/</link>

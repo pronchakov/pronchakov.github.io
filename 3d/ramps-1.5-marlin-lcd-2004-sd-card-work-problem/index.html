@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>
+RAMPS 1.5 Marlin LCD-2004 SD card work problem | Clear Prop
+</title>
+
+    <link rel="shortcut icon" type="image/jpg" href="/favicon.ico"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="generator" content="Hugo 0.118.2">
+
+
+<link rel="canonical" href="https://clearprop.ru/3d/ramps-1.5-marlin-lcd-2004-sd-card-work-problem/" >
+<link href="/sass/main.min.753fff0c172d4f2a5c57f00c37c49dd2efe5cd9ad641d2c9c1eb99abf43a32e5.css" rel="stylesheet">
+
+
+
+<link href="prism.css" rel="stylesheet" />
+<script src="prism.js"></script>
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        <header class="headerWrapper">
+    <div class="header">
+        <div>
+            <a href="https://clearprop.ru/">
+                <span class="terminal">maniak@clearprop.ru /home/lab $</span>
+                <span class="cursor"></span>
+            </a>
+        </div>
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="headerLinks">
+            <ul>
+                
+                <li>
+                    <a href="https://clearprop.ru/3d" title="" >
+                        ~/3d</a>
+                </li>
+                
+                <li>
+                    <a href="https://clearprop.ru/uav" title="" >
+                        ~/uav</a>
+                </li>
+                
+                <li>
+                    <a href="https://clearprop.ru/java" title="" >
+                        ~/java</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+        <div class="content">
+            <main class="main">
+                
+<div class="postWrapper">
+    <h1>RAMPS 1.5 Marlin LCD-2004 SD card work problem</h1>
+    
+    <section class="postMetadata">
+        <dl>
+            
+                
+<dt>tags</dt>
+<dd><span></span>
+    <a href="/tags/marlin/">#marlin</a><span></span>
+    <a href="/tags/ramps/">#ramps</a><span></span>
+    <a href="/tags/sd/">#sd</a><span></span>
+    <a href="/tags/lcd/">#lcd</a></dd>
+            
+            
+            
+                
+<dt>categories</dt>
+<dd><span></span>
+    <a href="/categories/3d/">3d</a></dd>
+            
+            
+                <dt>published</dt>
+                
+                <dd><time datetime="2023-09-20">September 20, 2023</time></dd>
+            
+            
+        </dl>
+    </section>
+    
+    <div>
+        <h3 id="проблема">Проблема</h3>
+<p>Делаю принтер на Arduino Mega 2560 и Ramps 1.5<br>
+Экран RepRapDiscount Smart Controller<br>
+Не хочет работать взаимодействие с SD картой.</p>
+<p><img src="images/ramps1.5.jpg" alt="RAMPS 1.5 " class="postImage"/>
+<img src="images/lcd2004.jpeg" alt="LCD 2004" class="postImage"/></p>
+<p>Marlin 2.1.2.1</p>
+<p>Configuration.h</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#define SDSUPPORT  
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">#define REPRAP_DISCOUNT_SMART_CONTROLLER
+</span></span></span></code></pre></div><p>Configuration_adv.h</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#define SDCARD_CONNECTION LCD </span><span style="color:#75715e">//(без него тоже пробовал)
+</span></span></span></code></pre></div><p>Пробовал играться с <code>#define SD_SPI_SPEED</code>, <code>#define SD_CHECK_AND_RETRY</code></p>
+<p>При вставке карты, на экране: <code>Media Init fail</code> <br>
+В меню: <code>No media</code><br>
+В Pronterface при подключении и при извлечении карты: echo:SD card released<br>
+Если вставить карту, то: <code>echo:No SD card</code></p>
+<p>Т.е. он в принципе то взаимодействует со считывальщиком карт.<br>
+И также понятно, что <code>#define SD_DETECT_STATE</code> выставлен правильно.</p>
+<p>Карта точно рабочая, причем с этим же экраном. Но пробовал и другие и форматировать и т.д.<br>
+Провода так же точно рабочие.</p>
+<p>Раньше было подключено к <code>MKS Base 1.5</code>, там все работало. только что подключил туда перепроверить, там все читается и работает.</p>
+<h3 id="решение">Решение</h3>
+<p>Предположение сначала пало на marlin, что у него в версии 2.1.x что-то переделали в работе с SD картами и с ними куча проблем.</p>
+<p>Но дело оказалось в самой arduino.<br>
+Попробовал с другой - все заработало.</p>
+<p>Причем и с версией <code>2.0.x</code> и с <code>2.1.x</code>.</p>
+    </div>
+</div>
+
+            </main>
+        </div>
+
+
+        <footer class="footer">
+    
+        <span>
+            © 2023 Artem Pronchakov, Built with
+            <a href="https://gohugo.io" class="footerLink">Hugo</a> and
+            modified
+            <a href="https://github.com/pronchakov/hugo-theme-nightfall" class="footerLink">Nightfall</a> theme
+        </span>
+    
+</footer>
+    </div>
+
+</body>
+
+</html>
