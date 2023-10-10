@@ -7,17 +7,5 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Sep 2023 22:54:19 +0300</lastBuildDate><atom:link href="https://clearprop.ru/3d/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>RAMPS 1.5 Marlin LCD-2004 SD card work problem</title>
-      <link>https://clearprop.ru/3d/ramps-1.5-marlin-lcd-2004-sd-card-work-problem/</link>
-      <pubDate>Wed, 20 Sep 2023 02:12:50 +0300</pubDate>
-      
-      <guid>https://clearprop.ru/3d/ramps-1.5-marlin-lcd-2004-sd-card-work-problem/</guid>
-      <description>&lt;h3 id=&#34;проблема&#34;&gt;Проблема&lt;/h3&gt;
-&lt;p&gt;Делаю принтер на Arduino Mega 2560 и Ramps 1.5&lt;br&gt;
-Экран RepRapDiscount Smart Controller&lt;br&gt;
-Не хочет работать взаимодействие с SD картой.&lt;/p&gt;</description>
-    </item>
-    
   </channel>
 </rss>

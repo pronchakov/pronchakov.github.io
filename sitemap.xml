@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://clearprop.ru/projects/</loc>
+    <lastmod>2023-10-09T01:08:10+03:00</lastmod>
+  </url><url>
+    <loc>https://clearprop.ru/projects/plane-stabilizer/</loc>
+    <lastmod>2023-10-09T01:08:10+03:00</lastmod>
+  </url><url>
     <loc>https://clearprop.ru/3d/</loc>
+    <lastmod>2023-09-22T22:54:19+03:00</lastmod>
+  </url><url>
+    <loc>https://clearprop.ru/3d/yellow-ray/</loc>
     <lastmod>2023-09-22T22:54:19+03:00</lastmod>
   </url><url>
     <loc>https://clearprop.ru/</loc>
@@ -23,7 +32,7 @@
     <loc>https://clearprop.ru/tags/ramps/</loc>
     <lastmod>2023-09-20T02:12:50+03:00</lastmod>
   </url><url>
-    <loc>https://clearprop.ru/3d/ramps-1.5-marlin-lcd-2004-sd-card-work-problem/</loc>
+    <loc>https://clearprop.ru/3d/yellow-ray/ramps-1.5-marlin-lcd-2004-sd-card-work-problem/</loc>
     <lastmod>2023-09-20T02:12:50+03:00</lastmod>
   </url><url>
     <loc>https://clearprop.ru/tags/sd/</loc>
