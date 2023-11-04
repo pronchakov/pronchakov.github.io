@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>
+Maple | Clear Prop
+</title>
+
+    <link rel="shortcut icon" type="image/jpg" href="/favicon.ico"/>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="generator" content="Hugo 0.118.2">
+
+
+<link rel="canonical" href="https://clearprop.ru/uav/maple/" >
+  <link href="https://clearprop.ru/uav/maple/index.xml" rel="alternate" type="application/rss+xml" title="ClearProp" >
+  <link href="https://clearprop.ru/uav/maple/index.xml" rel="feed" type="application/rss+xml" title="ClearProp" >
+<link href="/sass/main.min.753fff0c172d4f2a5c57f00c37c49dd2efe5cd9ad641d2c9c1eb99abf43a32e5.css" rel="stylesheet">
+
+
+
+<link href="prism.css" rel="stylesheet" />
+<script src="prism.js"></script>
+
+<script type="text/javascript">
+  MathJax = {
+    tex: {
+      displayMath: [['$$', '$$'], ['\\[', '\\]']],
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+    },
+  };
+</script>
+<script
+        async
+        id="MathJax-script"
+        src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"
+        integrity="sha384-+BSz3oj3ILMYvOBr16U9i0H4RZRmGyQQ+1q9eqr8T3skmAFrJk8GmgwgqlCZdNSo"
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+        type="text/javascript"></script>
+
+</head>
+
+<body>
+
+    <div class="flexWrapper">
+        <header class="headerWrapper">
+    <div class="header">
+        <div>
+            <a href="https://clearprop.ru/">
+                <span class="terminal">maniak@clearprop.ru /home/lab $</span>
+                <span class="cursor"></span>
+            </a>
+        </div>
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="headerLinks">
+            <ul>
+                
+                <li>
+                    <a href="https://clearprop.ru/3d" title="" >
+                        ~/3d</a>
+                </li>
+                
+                <li>
+                    <a href="https://clearprop.ru/uav" title="" >
+                        ~/uav</a>
+                </li>
+                
+                <li>
+                    <a href="https://clearprop.ru/projects" title="" >
+                        ~/Проекты</a>
+                </li>
+                
+                <li>
+                    <a href="https://clearprop.ru/java" title="" >
+                        ~/java</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+</header>
+
+
+        <div class="content">
+            <main class="main">
+                
+
+<div>
+    <div class="listHeader">
+        <h1>Maple</h1>
+    </div>
+
+    
+    <div class="listContent"><h2 id="проект-беспилотного-летательного-аппарата-самолетного-типа-клён">Проект беспилотного летательного аппарата самолетного типа &ldquo;Клён&rdquo;</h2>
+<h3 id="цель">Цель</h3>
+<p>Рассчитать, построить и проверить БПЛА самолетного типа для наработки знаний и
+навыков проведения расчетов и проектирования</p>
+<h3 id="техническое-задание">Техническое задание</h3>
+<p>Характеристики, которые необходимо соблюсти:</p>
+<ul>
+<li>Назначение ЛА: разведывательный (приоритет - время полета)</li>
+<li>Размах крыла: 2м</li>
+<li>Силовая установка: Электрическая</li>
+</ul>
+<h3 id="расчет">Расчет</h3>
+<p>Так как в приоритетах стоит увеличение времени полета и задан размах крыла,
+будем отталкиваться не от веса конструкции или полезной нагрузки, а от
+подъемной силы, создаваемой крылом, а так же лобового сопротивления.</p>
+<p>По этим параметрам можно будет выйти на мощность и вес двигателя и других
+частей конструкции.</p>
+<h4 id="этапы-расчета">Этапы расчета</h4>
+<ol>
+<li>Определение параметров крыла
+<ol>
+<li>Удлинение крыла</li>
+<li>Ширина</li>
+<li>Профиль</li>
+<li>Сужение</li>
+<li>Крутка</li>
+<li>V-образность</li>
+<li>Законцовки</li>
+</ol>
+</li>
+<li>Расчет лобового сопротивления
+<ol>
+<li>Профильное сопротивление
+<ol>
+<li>Крыла</li>
+<li>Горизонтального оперения</li>
+<li>Вертикального оперения</li>
+<li>Фюзеляжа</li>
+<li>Шасси</li>
+</ol>
+</li>
+<li>Индуктивное сопротивление</li>
+</ol>
+</li>
+<li>Расчет подъемной силы крыла</li>
+<li>Построение поляры</li>
+<li>Расчет потребной скорости</li>
+<li>Расчет потребной мощности двигателя</li>
+<li>Расчет веса оборудования, кроме батареи
+<ol>
+<li>Двигатель</li>
+<li>Регулятор</li>
+<li>Батарея</li>
+<li>Сервомашинки</li>
+<li>Приемник сигнала управления</li>
+<li>Стабилизатор / автопилот</li>
+<li>GPS приемник</li>
+<li>Камера</li>
+<li>Передатчик видео</li>
+</ol>
+</li>
+<li>Расчет центровки</li>
+<li>Расчет стабилизации</li>
+<li>Расчет строительного веса конструкции</li>
+<li>Расчет веса батареи = Подъемная сила - (масса оборудования + масса
+конструкции)</li>
+</ol>
+<p>Уравнение подъемной силы:
+$$
+\begin{equation}
+L=\frac{1}{2} \cdot \rho \cdot S \cdot V^2 \cdot C_y
+\end{equation}
+$$</p>
+<h3 id="проектирование">Проектирование</h3>
+<h3 id="постройка-опытного-образца">Постройка опытного образца</h3>
+</div>
+    
+
+    <div>
+        
+    </div>
+</div>
+
+
+            </main>
+        </div>
+
+
+        <footer class="footer">
+    
+        <span>
+            © 2023 Artem Pronchakov, Built with
+            <a href="https://gohugo.io" class="footerLink">Hugo</a> and
+            modified
+            <a href="https://github.com/pronchakov/hugo-theme-nightfall" class="footerLink">Nightfall</a> theme
+        </span>
+    
+</footer>
+    </div>
+
+</body>
+
+</html>

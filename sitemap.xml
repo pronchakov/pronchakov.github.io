@@ -2,11 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://clearprop.ru/3d/wheeper/</loc>
+    <lastmod>2023-11-01T01:28:31+03:00</lastmod>
+  </url><url>
+    <loc>https://clearprop.ru/uav/maple/</loc>
+    <lastmod>2023-10-25T02:14:11+03:00</lastmod>
+  </url><url>
     <loc>https://clearprop.ru/projects/</loc>
     <lastmod>2023-10-09T01:08:10+03:00</lastmod>
   </url><url>
     <loc>https://clearprop.ru/projects/plane-stabilizer/</loc>
     <lastmod>2023-10-09T01:08:10+03:00</lastmod>
+  </url><url>
+    <loc>https://clearprop.ru/uav/</loc>
+    <lastmod>2023-09-22T23:15:16+03:00</lastmod>
   </url><url>
     <loc>https://clearprop.ru/3d/</loc>
     <lastmod>2023-09-22T22:54:19+03:00</lastmod>
